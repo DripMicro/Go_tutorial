@@ -5,9 +5,12 @@ import (
 )
 
 func main() {
-	var x uint = 500
-	var y uint = 4500
-	fmt.Printf("Type: %T, value: %v", x, x)
-	fmt.Printf("Type: %T, value: %v", y, y)
+	var txt1 string = "Hello!"
+	var txt2 string
+	txt3 := "World 1"
+
+	fmt.Printf("Type: %T, value: %v\n", txt1, txt1)
+	fmt.Printf("Type: %T, value: %v\n", txt2, txt2)
+	fmt.Printf("Type: %T, value: %v\n", txt3, txt3)
 
 }
