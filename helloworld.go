@@ -4,14 +4,14 @@ import (
 	"fmt"
 )
 
-const (
-	A int = 1
-	B     = 3.14
-	C     = "Hi!"
-)
-
 func main() {
-	fmt.Println(A)
-	fmt.Println(B)
-	fmt.Println(C)
+	var i, j = "10", 20
+
+	fmt.Print(i, j)
+
+	i = "Hello"
+	j = 15
+
+	fmt.Printf("i has value: %v and type: %T\n", i, i)
+	fmt.Printf("j has value: %v and type: %T", j, j)
 }
