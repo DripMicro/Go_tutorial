@@ -5,13 +5,9 @@ import (
 )
 
 func main() {
-	var b1 bool = true // typed declaration with initial value
-	var b2 = true      // untyped declaration with initial value
-	var b3 bool        // typed declaration without initial value
-	b4 := true         // untyped declaration with initial value
+	var x uint = 500
+	var y uint = 4500
+	fmt.Printf("Type: %T, value: %v", x, x)
+	fmt.Printf("Type: %T, value: %v", y, y)
 
-	fmt.Println(b1) // Returns true
-	fmt.Println(b2) // Returns true
-	fmt.Println(b3) // Returns false
-	fmt.Println(b4) // Returns true
 }
