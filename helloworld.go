@@ -5,13 +5,29 @@ import (
 )
 
 func main() {
-	var i, j = "10", 20
+	var i = 15.5
+	var txt = "Helo World!"
 
-	fmt.Print(i, j)
+	fmt.Printf("%v\n", i)
+	fmt.Printf("%#v\n", i)
+	fmt.Printf("%v%%\n", i)
+	fmt.Printf("%T\n", i)
 
-	i = "Hello"
-	j = 15
+	fmt.Printf("%v\n", txt)
+	fmt.Printf("%#v\n", txt)
+	fmt.Printf("%T\n", txt)
 
-	fmt.Printf("i has value: %v and type: %T\n", i, i)
-	fmt.Printf("j has value: %v and type: %T", j, j)
+	var j = 15
+
+	fmt.Printf("%b\n", j)
+	fmt.Printf("%d\n", j)
+	fmt.Printf("%+d\n", j)
+	fmt.Printf("%o\n", j)
+	fmt.Printf("%O\n", j)
+	fmt.Printf("%x\n", j)
+	fmt.Printf("%X\n", j)
+	fmt.Printf("%#x\n", j)
+	fmt.Printf("%4d\n", j)
+	fmt.Printf("%-4d\n", j)
+	fmt.Printf("%04d\n", j)
 }
