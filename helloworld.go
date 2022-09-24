@@ -4,12 +4,13 @@ import (
 	"fmt"
 )
 
-func main() {
-	var student1 string = "John" //type is string
-	var student2 = "Jane"        //type is inferrred
-	x := 2
+var a int
+var b int = 2
+var c = 3
 
-	fmt.Println(student1)
-	fmt.Println(student2)
-	fmt.Println(x)
+func main() {
+	a = 1
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
 }
