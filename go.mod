@@ -1,3 +1,3 @@
-module example.com/hello
+module booking-app
 
 go 1.19
